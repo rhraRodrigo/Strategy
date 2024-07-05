@@ -14,7 +14,6 @@
 - Java (21)
 - Spring boot (3)
 - Strategy
-- GraalVM-21
 
 ### Postman Collection
 - Adicionei a collection na pasta:
