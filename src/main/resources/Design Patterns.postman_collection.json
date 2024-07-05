@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "5de52fb3-6e97-4776-b9e4-a9c4856d3f86",
+		"name": "Design Patterns",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "12057947"
+	},
+	"item": [
+		{
+			"name": "Notificação - Envio",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"channel\":\"whatsapp\",\r\n    \"destination\":\"81 99694-1201\",\r\n    \"message\":\"Você está com ligações pendentes.\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/v1/notifications",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"notifications"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
